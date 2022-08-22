@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 20px 20px 0 20px;
+}
+nav #nav-bar{
+   width: 150px; 
+}
+
+nav #nav-bar a{
+    text-decoration: none;
+    padding: 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-size: 1.5em;
+}
+#features{
+    margin-top: 30px;
+    align-items: center;
+}
+#features .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+    margin-left: 20%;
+}
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+#email{
+    height: 35px;
+    width: 300px;
+    padding: 10px;
+}
+
+#submit-btn{
+    height: 30px;
+    width: 150px;
+    background-color: yellow;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+#submit-btn:hover{
+    background-color: orange;
+    transition: .5s ease-in-out;
+}
+.description{
+    
+
+}
+
+#features .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 400px;
+    padding: 10px;
+    margin-left: 40%;
+    margin-top: -120px;
+}
+
+    .video-section{
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    #pricing{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .product{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: calc(100%/3);
+        margin:10px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .product  .tenor{
+        background-color: gray;
+        color: black;
+        padding: 15px 0;
+        width:100%;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    .product  h2{
+        margin-top: 30px;
+    }
+    ol{
+        margin: 30px 0;
+    }
+    li{
+        padding: 5px 0
+    }
+    footer{
+        margin-top: 30px;
+        background-color:gray;
+        padding:30px;
+    }
+    ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul > li{
+        padding: 0 15px;
+
+    }
+    span{
+        margin-top: 5px;
+        display: flex;
+        justify-content: flex-end;
+        font-size: medium;
+        color: blue;
+    }
